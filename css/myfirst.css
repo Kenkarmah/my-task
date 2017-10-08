@@ -1,0 +1,213 @@
+/********************************
+Header style goes here
+*********************************/
+ header .logo{
+    background-image: url(../img/Logofull.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3%;
+}
+
+ .hr-line {
+    border-top: 10px double #ededed;
+    border-bottom: 10px double #ededed;
+    height: 6rem;
+}
+/*.top-line1, .top-line2, .top-line3,.top-line4{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+.top-line1 {
+    margin-top: -38px;
+}
+.top-line2 {
+    margin-top: 10px;
+}
+.top-line3 {
+    margin-top: -5px;
+}
+.top-line4 {
+    margin-top: 10px;
+}*/
+
+
+/********************************
+Nav  style start here
+*********************************/
+
+#top-navbar {
+    margin-bottom: 1rem;
+}
+
+#top-navbar ul.right {
+    margin-right: 3rem;
+    line-height: 1;
+}
+
+#top-navbar ul li {
+    display: inline;
+}
+
+#top-navbar ul li a {
+    padding: 0.5rem 1rem;
+    font-weight: 300;
+}
+#main-nav li {
+    display: inline;
+}
+
+#main-nav li a {
+    padding: 0.5rem 1rem;
+    color: #000;
+}
+
+#main-nav li a.active {
+    border-bottom: 1px solid #000;
+}
+
+/********************************
+First Main style start here
+*********************************/
+section.container {
+    width: 90%;
+}
+
+
+#first-main .card .card-image .card-title {
+    background: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding-top: 25%;
+    font-size: 2.4rem;
+}
+
+
+
+/********************************
+Second Main style goes here
+*********************************/
+section .section-title span {
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 10px;
+}
+
+section .section-content .col {
+    margin: 3.6rem 0 4rem;
+}
+
+
+
+/********************************
+third Main style goes here
+*********************************/
+#third-main .card .card-action {
+    min-height: 7rem;
+}
+
+section .content .col {
+    margin: 3.6rem 0 4rem;
+}
+
+/********************************
+Media style goes here
+*********************************/
+
+#video .video-container {
+    border: 10px solid #000;
+}
+
+section #video .col {
+    margin: 3.6rem 0 4rem;
+}
+
+
+
+/********************************
+Footer style goes here
+*********************************/
+#footer {
+    margin-top: 50px;
+}
+
+#footer li {
+    display: inline;
+}
+
+#footer .btn-floating.btn-large {
+    width: 40px;
+    height: 40px;
+    margin-top: -1rem;
+}
+
+#footer .btn-floating.btn-large i {
+    line-height: 40px;
+}
+
+.hr-line-foot {
+    border-top: 5px double #ededed;
+    border-bottom: 5px double #ededed;
+    height: 5rem;
+}
+
+.hr-line-foot a.brand-logo {
+    margin-right: -2rem;
+    margin-top: -2.3rem;
+}
+
+.hr-line-foot li.nous {
+    font-size: 1.4rem;
+    margin-right: 10px;
+    color: grey;
+}
+
+input#email {
+    border: 1px solid;
+    height: 2.6rem;
+    width: 98%;
+    padding: 0 2%;
+    margin-top: -4px;
+}
+
+#submitEmail {
+    height: 40px;
+    margin-top: 11px;
+    line-height: 40px;
+}
+
+ .link2 li{
+    display: inline;
+    padding-right: 40px;
+}
+
+#bottom-foot{
+    width: 85%;
+}
+
+
+/********************************
+second page style goes here
+*********************************/
+
+.list li a{
+    padding: 0 15px;
+}
+
+.list  li.active{
+    border: 2px solid #d8d4d4;
+    background-color: #501313;
+}
+
+#second-main{
+    /*margin-bottom: 5rem;*/
+}
+
+.divider{
+    background-color:  #ededed;
+}
+
+.flow-text{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
